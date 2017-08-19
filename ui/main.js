@@ -18,7 +18,7 @@ function moveRight(){
     img.style.marginLeft = marginLeft + "px";}
     if (marginLeft > 60){
         marginUp = marginUp + 5;
-        img.style.marginUp = marginUp + "px";
+        img.style.marginDown = marginUp + "px";
     }
     if (marginUp > 60){
         marginLeft = 10;
